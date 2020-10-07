@@ -40,7 +40,7 @@ All code is written in R. R is a statistical programming language and software p
  
  ### Data files
   
-  ***data*** -- contains two subfolder: (i) ***input_data*** which contain Fasta file of input sequence, adn (ii) ***sim_outputs*** which contains sub-sub-folder for each simulation (`benchmark`, `calibration_epi_behav`, `calibration_phylo`, and `calibration_combined`) csv files one per each job submission at CHPC which contains simulation outputs of age mixing patterns from records of the transmission networks and phylogenetic analysis.
+  ***data*** -- contains two subfolder: (i) ***input_data*** which contain Fasta file of input sequence for viral evolution simulation, and (ii) ***sim_outputs*** which contains sub-sub-folder for ouputs of each simulation (`benchmark`, `calibration_epi_behav`, `calibration_phylo`, and `calibration_combined`). Note that, mean vlues of summary features from benchmark data are inputs for calibration.
   
   
 ### Results files
