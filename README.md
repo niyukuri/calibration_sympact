@@ -19,8 +19,6 @@ This repo contains the information necessary to reproduce the simulation study:
 
 ## CODE AND DATA FILES 
 
-Three types of files (not including this readme file) are stored on this repository: code files, data files and figure files.
-
 
 ### Code files
 
