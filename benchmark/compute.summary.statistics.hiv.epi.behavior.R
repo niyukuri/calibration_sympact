@@ -1,4 +1,5 @@
-#' Computing epidmiological, demographical, sexual behavioural, and interventions realted summary statistics
+
+#' Computing epidmiological, demographical, sexual behavioural, and interventions summary statistics
 #'
 
 #' @param datalist.agemix Data list of simpact output produced by \code{\link{readthedata()}}
@@ -46,7 +47,7 @@
 
 
 compute.summary.statistics.hiv.epi.behavior <- function(datalist = datalist.agemix,
-                                               timewindow = c(30, 40)){
+                                                        timewindow = c(30, 40)){
   
   
   source("/home/dniyukuri/lustre/benchmark_master_model/needed.functions.RSimpactHelp.R")

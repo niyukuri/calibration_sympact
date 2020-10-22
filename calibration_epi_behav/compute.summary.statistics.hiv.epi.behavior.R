@@ -1,4 +1,5 @@
-#' Computing epidmiological, demographical, sexual behavioural, and interventions realted summary statistics
+
+#' Computing epidmiological, demographical, sexual behavioural, and interventions summary statistics
 #'
 
 #' @param datalist.agemix Data list of simpact output produced by \code{\link{readthedata()}}

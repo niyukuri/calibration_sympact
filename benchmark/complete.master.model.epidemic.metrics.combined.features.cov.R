@@ -1,21 +1,23 @@
-# Master model which simulates the epidemic and compute summary statistics in different scenarios
+
+# Master model which simulates the epidemic and compute benchmark values for 
+# HIV transmission network determinants and summary statistics (targets during calibration) in different scenarios
+
 
 # The output is a vector of values of
 
-# 1. Transmission network characteristics 
+# 1. Transmission network determinants (characteristics)
 
-# - temporal trend of incidence
 # - age mixing statistics
 # - mean, median, and standard deviation of onward transmissions
+# - temporal trend of incidence
+
 
 # 2. Epidmiological, demographical, sexual behavioural, and interventions realted summary statistics
 
-# 3. Phylogenetic summary statistics in MCAR and MA (35:95, by 5) scenarios (13 * 4), each scenario returns measurements which are describbed
-# in compute.summary.statistics.phylo.MAR and compute.summary.statistics.phylo.MCAR scripts):
+# 3. Phylogenetic summary statistics in MCAR (35:95, by 5) scenarios, each scenario returns measurements which are described
+# in compute.summary.statistics.phylo.MCAR scripts):
 
 # Missing Completly at Random has 13 scenarios
-# Missing At Random has 39 scenarios, with 13 when we assume we have more women in the sample (seq.gender.ratio = 70%)
-# the second we have fewer women (seq.gender.ratio = 30%), and the third we have same amount of men and women (seq.gender.ratio = 50%)
 
 
 
