@@ -68,7 +68,7 @@ p_df <- data.frame(name, p)
 
 
 # Prevalence at 40 ---------------
-
+# extracted for epi-behav SS
 
 hiv.prev <- benckmark.df %>% 
   select(starts_with("prev.")) 
@@ -134,8 +134,8 @@ ggsave(filename = "000_master.model.prevalence.at.40.pdf",
 
 
 
-# Incidence at 40 ------------------
-
+# Incidence at 39:40 ------------------
+# extracted for epi-behav SS
 
 hiv.inc <- benckmark.df %>% 
   select(starts_with("incid.")) 
